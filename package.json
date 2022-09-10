@@ -1,0 +1,26 @@
+{
+  "name": "backgroung-generator",
+  "version": "1.0.0",
+  "description": "The background generator website",
+  "main": "script.js",
+  "scripts": {  
+    "build": "browserify script.js > bundle.js && live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/legrandBenjo/backgroung-generator.git"
+  },
+  "keywords": [
+    "background",
+    "generator"
+  ],
+  "author": "Legrand Benjo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/legrandBenjo/backgroung-generator/issues"
+  },
+  "homepage": "https://github.com/legrandBenjo/backgroung-generator#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
